@@ -1,0 +1,100 @@
+*{padding: 0; margin: 0;}
+body{
+    background-color: darkgreen;
+    margin: 40px;
+    color:bisque;
+}
+main{
+    display: flex;
+}
+#container{
+    max-width: 100%;
+    margin-top: 40px;
+}
+#display{
+    position: absolute;
+    height:220px;
+    max-width: 100px;
+    width: 20%;
+    background: #999;
+    border-right: 7px solid rgb(90, 5, 5);
+    z-index: 92;
+}
+#display h2{
+    font-size: 18px;
+    line-height: 2.3em;
+    padding:5px 25px;
+    color: rgb(109, 8, 8);
+}
+#versenyPalya{
+    background: rgb(155, 215, 165);
+    position: absolute;
+    z-index: 90;
+    height:220px;
+    width: 95%;
+}
+#versenyPalya img{
+    width: 50px;
+}
+#versenyPalya #lo1{
+    padding-top: 5px;
+    position: absolute;
+}
+#versenyPalya #lo2{
+    padding-top: 45px;
+    position: absolute;
+}
+#versenyPalya #lo3{
+    padding-top: 88px;
+    position: absolute;
+}
+#versenyPalya #lo4{
+    padding-top: 130px;
+    position: absolute;
+}
+#versenyPalya #lo5{
+    padding-top: 172px;
+    position: absolute;
+}
+#induloLovak ol{
+    margin-top: 10px;
+    padding: 10px 40px 20px 40px;
+}
+[type="button"]{
+    font-size: 22px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: aquamarine;
+}
+#celVonal{
+    position: absolute;
+    height: 100%;
+    z-index: 96;
+    border-right: 5px solid #f00;
+    width:85%;
+}
+.vonalak{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.vonal{
+    border-top:2px solid red;
+    margin-top: 40px;
+    width: 95%;
+    z-index: 120;
+}
+#eredmenyJelzo{
+    background: #000;
+    width: 40%;
+    max-height: 30%;
+    padding: 25px;
+    border-radius: 10px;
+}
+form{
+    width: 50%;
+}
+#eredmenyJelzo h3{
+    padding: 10px 30px;
+}

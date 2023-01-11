@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lóverseny</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="lovakLista.js"></script>
+</head>
+
+<body>
+    <main>
+        <div id="induloLovak">
+            <h2>A versenyen induló lovak: </h2>
+        </div>
+        <form name="form1" id="form1">
+            <h2 id="kattintas">Kérem kattintson ide a tippeléshez! </h2>
+            <input type="button" id="bekeresButton" value="TIPPELEK" onclick="bekeres()"/>
+            <input type="button" id="startButton" value="START" onclick="futas()"/>
+            <input type="button" id="kovetkezoButton" value="ÚJRA FOGADOK" onclick="kovetkezo()"/>
+            <h1 id="tippeltLo"></h1>
+            <h1 id="nincsIlyen"></h1>
+            <h1 id="gyoztes"></h1>
+        </form>
+
+        <div id="eredmenyJelzo">
+            <h2>Befutó lovak:</h2>
+        </div>
+    </main>
+   
+    <!-- Grafika -->
+<div id="container">
+    <div id="display"></div>
+    <div id="versenyPalya">
+        <div id="lo1"><img id="loKep" src="Img-20230104/lo.gif" alt=""></div>
+        <div id="lo2"><img id="loKep2" src="Img-20230104/lo.gif" alt=""></div>
+        <div id="lo3"><img id="loKep3" src="Img-20230104/lo.gif" alt=""></div>
+        <div id="lo4"><img id="loKep4" src="Img-20230104/lo.gif" alt=""></div>
+        <div id="lo5"><img id="loKep5" src="Img-20230104/lo.gif" alt=""></div>
+        <div id="celVonal"></div>
+        <div class="vonalak">
+            <div class="vonal"></div>
+            <div class="vonal"></div>
+            <div class="vonal"></div>
+            <div class="vonal"></div>
+        </div>
+    </div>
+</div>
+
+    <script src="loverseny.js"></script>
+</body>
+
+</html>
